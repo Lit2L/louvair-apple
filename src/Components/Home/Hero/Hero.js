@@ -61,7 +61,7 @@ const HomeHero = () => {
 			<ScrollCTA />
 			<div className='content-width column'>
 				<div className='hero-background loading-transition' ref={backgroundWrapper}>
-					<img src='/home/exo-ape-hero.webp' alt='exoape hero' ref={backgroundImage} />
+					<img src='/home/exo-ape-hero.jpeg' alt='exoape hero' ref={backgroundImage} />
 				</div>
 				<div className='top-span-container'>
 					<div className='anim'>
@@ -71,15 +71,15 @@ const HomeHero = () => {
 						<span ref={topSpans[1]}>and fuelled with an everlasting devotion to essense</span>
 					</div>
 					<div className='anim'>
-						<span ref={topSpans[2]}>craftsmanship and meaningful aesthetics.</span>
+						<span ref={topSpans[2]}>craft meaningful nostalgia.</span>
 					</div>
 				</div>
 				<h1>
 					<div className='hero-title-anim'>
-						<p ref={headings[0]}>Digital</p>
+						<p ref={headings[0]}>Air</p>
 					</div>
 					<div className='hero-title-anim'>
-						<p ref={headings[1]}>Design</p>
+						<p ref={headings[1]}>Ambience</p>
 					</div>
 					<div className='hero-title-anim'>
 						<p ref={headings[2]}>Experience</p>
